@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lab29-unit-converter-angular';
+  matDrawerMode = 'side';
+  matDrawerHasBackdrop = true;
 }
