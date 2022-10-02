@@ -1,5 +1,16 @@
 <mat-sidenav-container class="h-full" hasBackdrop=true>
-  <mat-sidenav #drawer style="" mode="over">I'm a drawer</mat-sidenav>
+  <mat-sidenav #drawer mode="over">
+    <mat-list role="list">
+      <mat-list-item role="listitem" class="l29-list-btn" routerLink="../home" (click)="drawer.toggle()">
+        <mat-icon>home</mat-icon>home
+      </mat-list-item>
+      <mat-list-item role="listitem" class="l29-list-btn" routerLink="../length" (click)="drawer.toggle()">
+        <mat-icon>straighten</mat-icon>length
+      </mat-list-item>
+      <mat-list-item role="listitem" class="l29-list-btn">Item 2</mat-list-item>
+      <mat-list-item role="listitem" class="l29-list-btn">Item 3</mat-list-item>
+    </mat-list>
+  </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar>
       <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"
@@ -15,8 +26,7 @@
         <mat-icon>share</mat-icon>
       </button>
     </mat-toolbar>
-    <h1 class="text-3xl font-bold underline" style="font-family: 'Quantico';">
-      Hello world!
-    </h1>
+
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

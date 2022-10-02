@@ -125,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "lab29-unit-converter-angular"
+  "defaultProject": "lab29-unit-converter-angular",
+  "cli": {
+    "analytics": false
+  }
 }

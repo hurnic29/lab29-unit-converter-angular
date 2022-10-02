@@ -1,21 +1,6 @@
-/* .example-spacer {
-    flex: 1 1 auto;
-} */
+.l29-list-btn {}
 
-/* .example-container {
-    width: 400px;
-    height: 200px;
-    margin: 12px;
-    border: 1px solid #555;
+.l29-list-btn:hover {
+    cursor: pointer;
+    background-color: beige;
 }
-
-mat-drawer-content {
-    padding: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-} */
-
-/* .mat-drawer-opened {
-    z-index: 100;
-} */
